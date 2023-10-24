@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-gradient-primary { 
+  background-image: linear-gradient(270deg,#d123e1,#d18aea 26%,#d0c2f4 39%,#ceecfd 50%,#a9c8f4 61%,#7b9eea 74%,#2362e1);
+  filter: blur(175px);
+}

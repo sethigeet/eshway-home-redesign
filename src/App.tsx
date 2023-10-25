@@ -1,5 +1,4 @@
-import { Footer, Navbar, ServiceCard } from "./components";
-import { PersonCard } from "./components/PersonCard";
+import { Footer, Navbar, ServiceCard, PersonCard } from "./components";
 
 function App() {
   return (
@@ -92,26 +91,22 @@ function App() {
               imgSrc="/people/eshller.webp"
               name="Eshller"
               position="Founder"
-              desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, repudiandae!"
             />
             <div className="mt-4 flex gap-4 justify-evenly">
               <PersonCard
                 imgSrc="/people/likhitha.webp"
                 name="Likhitha"
                 position="Core Team"
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, repudiandae!"
               />
               <PersonCard
                 imgSrc="/people/vallabh.webp"
                 name="Vallabh"
                 position="Core Team"
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, repudiandae!"
               />
               <PersonCard
                 imgSrc="/people/akshat.webp"
                 name="Akshat"
                 position="Core Team"
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, repudiandae!"
               />
             </div>
           </div>
